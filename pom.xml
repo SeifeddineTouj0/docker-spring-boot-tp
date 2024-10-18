@@ -105,7 +105,7 @@
 		<repository>
 			<id>deploymentRepo</id>
 			<name>Nexus Repository</name>
-			<url>http://localhost:8081/repository/maven-releases/</url> <!-- Vérifiez l'URL pour la connectivité -->
+			<url>http://nexus:8081/repository/maven-releases/</url> <!-- Vérifiez l'URL pour la connectivité -->
 		</repository>
 	</distributionManagement>
 </project>
